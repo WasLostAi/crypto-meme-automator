@@ -21,7 +21,7 @@ An automated system for creating and deploying crypto meme tokens across multipl
    ```
 4. Start MCP server: `npm run mcp`
 5. Start main server: `npm run dev`
-6. Run demo: `node demo.js`
+7. Open web dashboard: http://localhost:3000
 
 ## API Endpoints
 

@@ -1,12 +1,6 @@
 require('dotenv').config();
-const express = require('expres  try {
-    const response = await axios.post(`${TATUM_BASE_URL}/${chain}/wallet`, { testnet: true }, {
-      headers: { 'x-api-key': apiKey }
-    });
-    res.json(response.data);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }st axios = require('axios');
+const express = require('express');
+const axios = require('axios');
 
 const app = express();
 app.use(express.json());
